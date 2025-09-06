@@ -17,6 +17,7 @@ PyTorch, TensorFlow, scikit-learn, SciPy, seaborn, torchvision, Colab, PyCharm.
 - **CPSC2018 pipeline**: ResNet50 pretrained (feature extractor) → Logistic Regression on extracted embeddings.
 
 ## Repo Structure
+```bash
 ecg-classification-ptbxl-cpsc2018/
 │
 ├─ notebooks/                  # Jupyter notebooks (EDA, prototyping, training logs)
