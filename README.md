@@ -16,6 +16,17 @@ PyTorch, TensorFlow, scikit-learn, SciPy, seaborn, torchvision, Colab, PyCharm.
 - **PTB-XL pipeline**: custom CNN with convolutional blocks → training with class weights → evaluation.
 - **CPSC2018 pipeline**: ResNet50 pretrained (feature extractor) → Logistic Regression on extracted embeddings.
 
+## Model Architectures & Training Pipelines
+
+### CNN Architecture (PTB-XL)
+![CNN Architecture](assets/cnn_architecture.png)
+
+### Training Pipeline – CNN (PTB-XL)
+![CNN Training Pipeline](assets/cnn_training_pipeline.png)
+
+### Training Pipeline – Pretrained ResNet50 + Logistic Regression (CPSC2018)
+![ResNet Training Pipeline](assets/resnet_training_pipeline.png)
+
 ## Repo Structure
 ```bash
 ecg-classification-ptbxl-cpsc2018/
@@ -64,14 +75,4 @@ ecg-classification-ptbxl-cpsc2018/
 |   
 └─ README.md
 
-## Model Architectures & Training Pipelines
-
-### CNN Architecture (PTB-XL)
-![CNN Architecture](assets/cnn_architecture.png)
-
-### Training Pipeline – CNN (PTB-XL)
-![CNN Training Pipeline](assets/cnn_training_pipeline.png)
-
-### Training Pipeline – Pretrained ResNet50 + Logistic Regression (CPSC2018)
-![ResNet Training Pipeline](assets/resnet_training_pipeline.png)
 
