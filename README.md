@@ -56,5 +56,22 @@ ecg-classification-ptbxl-cpsc2018/
 │   └─ models/                  # model architectures & training scripts
 │       ├─ train_model1.py
 │       └─ train_model2.pyy 
-│   
+│
+├─ assets/
+│   ├─ cnn_architecture.png
+│   ├─ cnn_training_pipeline.png
+│   └─ resnet_training_pipeline.png
+|   
 └─ README.md
+
+## Model Architectures & Training Pipelines
+
+### CNN Architecture (PTB-XL)
+![CNN Architecture](assets/cnn_architecture.png)
+
+### Training Pipeline – CNN (PTB-XL)
+![CNN Training Pipeline](assets/cnn_training_pipeline.png)
+
+### Training Pipeline – Pretrained ResNet50 + Logistic Regression (CPSC2018)
+![ResNet Training Pipeline](assets/resnet_training_pipeline.png)
+
